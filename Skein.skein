@@ -1,138 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-50">
+<Skein rootNode="node-58">
   <generator>Windows Inform 10.1.2</generator>
-  <item nodeId="node-50">
+  <item nodeId="node-58">
     <command xml:space="preserve">Escape From The Cheerful Tortoise</command>
-    <result xml:space="preserve">Escape From The Cheerful Tortoise&#x000A;An Interactive Fiction by Mackenzie Norman&#x000A;Release 1 / Serial number 250417 / Inform 7 v10.1.2 / D&#x000A;&#x000A;storage closet&#x000A;You wake up, head pounding.&#x000A;&#x000A;You can see a light switch here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You wake up, head pounding. The room smells of vomit and cleaning supplies. You can feel a string tickling your forehead.&#x000A;&#x000A;Escape From The Cheerful Tortoise&#x000A;An Interactive Fiction by Mackenzie Norman&#x000A;Release 1 / Serial number 250421 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-51"/>
-      <child nodeId="node-61"/>
-      <child nodeId="node-62"/>
-      <child nodeId="node-64"/>
-      <child nodeId="node-73"/>
-      <child nodeId="node-76"/>
+      <child nodeId="node-59"/>
+      <child nodeId="node-69"/>
+      <child nodeId="node-114"/>
+      <child nodeId="node-72"/>
+      <child nodeId="node-74"/>
+      <child nodeId="node-83"/>
+      <child nodeId="node-86"/>
+      <child nodeId="node-88"/>
+      <child nodeId="node-94"/>
       <child nodeId="node-100"/>
-      <child nodeId="node-78"/>
-      <child nodeId="node-84"/>
-      <child nodeId="node-89"/>
-      <child nodeId="node-93"/>
-      <child nodeId="node-95"/>
-      <child nodeId="node-97"/>
+      <child nodeId="node-105"/>
+      <child nodeId="node-109"/>
+      <child nodeId="node-111"/>
+      <child nodeId="node-113"/>
     </children>
   </item>
-  <item nodeId="node-51">
+  <item nodeId="node-59">
     <command xml:space="preserve">feel</command>
     <result xml:space="preserve">What do you want to feel?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-52"/>
-      <child nodeId="node-56"/>
+      <child nodeId="node-60"/>
+      <child nodeId="node-64"/>
     </children>
   </item>
-  <item nodeId="node-52">
+  <item nodeId="node-60">
     <command xml:space="preserve">feel string</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-53"/>
+      <child nodeId="node-61"/>
     </children>
-  </item>
-  <item nodeId="node-53">
-    <command xml:space="preserve">string</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-54"/>
-    </children>
-  </item>
-  <item nodeId="node-54">
-    <command xml:space="preserve">pull string</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-55"/>
-    </children>
-  </item>
-  <item nodeId="node-55">
-    <command xml:space="preserve">string</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-56">
-    <command xml:space="preserve">string</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-57"/>
-    </children>
-  </item>
-  <item nodeId="node-57">
-    <command xml:space="preserve">purloin string</command>
-    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-58"/>
-    </children>
-  </item>
-  <item nodeId="node-58">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;storage closet&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-59"/>
-    </children>
-  </item>
-  <item nodeId="node-59">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a string you can feel (providing light)&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-60"/>
-    </children>
-  </item>
-  <item nodeId="node-60">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">storage closet&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-61">
-    <command xml:space="preserve">flip light switch</command>
-    <result xml:space="preserve">You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">string</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-98"/>
+      <child nodeId="node-62"/>
     </children>
-  </item>
-  <item nodeId="node-98">
-    <command xml:space="preserve">flip light switch</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-99"/>
-    </children>
-  </item>
-  <item nodeId="node-99">
-    <command xml:space="preserve">flip on light switch</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-62">
-    <command xml:space="preserve">light lightbulb</command>
+    <command xml:space="preserve">pull string</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -141,14 +61,14 @@
     </children>
   </item>
   <item nodeId="node-63">
-    <command xml:space="preserve">lightbulb</command>
+    <command xml:space="preserve">string</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-64">
-    <command xml:space="preserve">lightbulb</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">string</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -156,8 +76,8 @@
     </children>
   </item>
   <item nodeId="node-65">
-    <command xml:space="preserve">light lightbulb</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">purloin string</command>
+    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -165,8 +85,8 @@
     </children>
   </item>
   <item nodeId="node-66">
-    <command xml:space="preserve">lightbulb</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;storage closet&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -174,8 +94,8 @@
     </children>
   </item>
   <item nodeId="node-67">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a string you can feel (providing light)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -183,17 +103,14 @@
     </children>
   </item>
   <item nodeId="node-68">
-    <command xml:space="preserve">x lightbulb</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">storage closet&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-69"/>
-    </children>
   </item>
   <item nodeId="node-69">
-    <command xml:space="preserve">purloin lightbulb</command>
-    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">flip light switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -201,8 +118,8 @@
     </children>
   </item>
   <item nodeId="node-70">
-    <command xml:space="preserve">purloin string</command>
-    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">flip light switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -210,32 +127,60 @@
     </children>
   </item>
   <item nodeId="node-71">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">flip on light switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-72"/>
+      <child nodeId="node-115"/>
+      <child nodeId="node-116"/>
     </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">flip light-switch</command>
+    <result xml:space="preserve">You switch the light-switch on.&#x000A;&#x000A;storage closet&#x000A;You wake up, head pounding. The room smells of vomit and cleaning supplies.&#x000A;&#x000A;You can see a light-switch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-72">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a string you can (providing light)&#x000A;  a lightbulb&#x000A;&#x000A;storage closet&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-73">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">storage closet&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">light lightbulb</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-74"/>
+      <child nodeId="node-73"/>
     </children>
   </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">lightbulb</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-74">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">lightbulb</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -243,14 +188,17 @@
     </children>
   </item>
   <item nodeId="node-75">
-    <command xml:space="preserve">x me</command>
-    <result xml:space="preserve">As good-looking as ever.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">light lightbulb</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
   </item>
   <item nodeId="node-76">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">hallway&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">lightbulb</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -258,64 +206,16 @@
     </children>
   </item>
   <item nodeId="node-77">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">hallway&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-100">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter glows in the distance.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-101"/>
-    </children>
-  </item>
-  <item nodeId="node-101">
-    <command xml:space="preserve">examine </command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-102"/>
-    </children>
-  </item>
-  <item nodeId="node-102">
-    <command xml:space="preserve">examine you</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-103"/>
-    </children>
-  </item>
-  <item nodeId="node-103">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-104"/>
+      <child nodeId="node-78"/>
     </children>
-  </item>
-  <item nodeId="node-104">
-    <command xml:space="preserve">x player</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-105"/>
-    </children>
-  </item>
-  <item nodeId="node-105">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-78">
-    <command xml:space="preserve">pull string</command>
+    <command xml:space="preserve">x lightbulb</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -324,8 +224,8 @@
     </children>
   </item>
   <item nodeId="node-79">
-    <command xml:space="preserve">touch string</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">purloin lightbulb</command>
+    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -333,8 +233,8 @@
     </children>
   </item>
   <item nodeId="node-80">
-    <command xml:space="preserve">string</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">purloin string</command>
+    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -342,8 +242,8 @@
     </children>
   </item>
   <item nodeId="node-81">
-    <command xml:space="preserve">light</command>
-    <result xml:space="preserve">What do you want to light?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -351,23 +251,23 @@
     </children>
   </item>
   <item nodeId="node-82">
-    <command xml:space="preserve">string</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a string you can (providing light)&#x000A;  a lightbulb&#x000A;&#x000A;storage closet&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-83"/>
+      <child nodeId="node-84"/>
     </children>
   </item>
-  <item nodeId="node-83">
-    <command xml:space="preserve">turn on light</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-84">
-    <command xml:space="preserve">switch on</command>
-    <result xml:space="preserve">(the light switch)&#x000A;That's already on.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -375,17 +275,14 @@
     </children>
   </item>
   <item nodeId="node-85">
-    <command xml:space="preserve">flip off</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-86"/>
-    </children>
   </item>
   <item nodeId="node-86">
-    <command xml:space="preserve">flip switch off</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">hallway&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -393,23 +290,23 @@
     </children>
   </item>
   <item nodeId="node-87">
-    <command xml:space="preserve">switch off</command>
-    <result xml:space="preserve">(the light switch)&#x000A;You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">hallway&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter glows in the distance.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-88"/>
+      <child nodeId="node-89"/>
     </children>
   </item>
-  <item nodeId="node-88">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-89">
-    <command xml:space="preserve">turn off light switch</command>
-    <result xml:space="preserve">You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine </command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -417,8 +314,8 @@
     </children>
   </item>
   <item nodeId="node-90">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine you</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -426,8 +323,8 @@
     </children>
   </item>
   <item nodeId="node-91">
-    <command xml:space="preserve">turn on light switch</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -435,28 +332,90 @@
     </children>
   </item>
   <item nodeId="node-92">
-    <command xml:space="preserve">turn on lightswitch</command>
+    <command xml:space="preserve">x player</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
   </item>
   <item nodeId="node-93">
-    <command xml:space="preserve">turn off switch</command>
-    <result xml:space="preserve">You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You fumble for the string but find you can't get hold of it. You must need another drink.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-94"/>
+      <child nodeId="node-118"/>
+      <child nodeId="node-121"/>
+      <child nodeId="node-95"/>
     </children>
   </item>
-  <item nodeId="node-94">
+  <item nodeId="node-118">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">storage closet&#x000A;You are in a musty storage closet.&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You switch the string on.&#x000A;&#x000A;storage closet&#x000A;You wake up, head pounding. The room smells of vomit and cleaning supplies. You can feel a string tickling your forehead. .&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You fumble for the string but find you can't get hold of it. You must need another drink.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You switch the string on.&#x000A;&#x000A;storage closet&#x000A;God the lights are bright.  You are in a musty storage closet.&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">storage closet&#x000A;You are in a musty storage closet.&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter glows in the distance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-95">
-    <command xml:space="preserve">turn on light switch</command>
+    <command xml:space="preserve">touch string</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -465,12 +424,144 @@
     </children>
   </item>
   <item nodeId="node-96">
+    <command xml:space="preserve">string</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">light</command>
+    <result xml:space="preserve">What do you want to light?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">string</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">turn on light</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">switch on</command>
+    <result xml:space="preserve">(the light switch)&#x000A;That's already on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">flip off</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">flip switch off</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">switch off</command>
+    <result xml:space="preserve">(the light switch)&#x000A;You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">turn off light switch</command>
+    <result xml:space="preserve">You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">turn on light switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">turn on lightswitch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">turn off switch</command>
+    <result xml:space="preserve">You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">turn on light switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
     <command xml:space="preserve">turn on light switch</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-97">
+  <item nodeId="node-113">
     <command xml:space="preserve">turn on lightbulb</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
