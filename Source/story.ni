@@ -5,7 +5,7 @@ Understand "pull [something switched off]" as switching on. Understand "pull [so
 
 
 The storage closet is a dark room. 
-After looking in the Storage Closet when the Storage Closet is dark and the player is in the Storage Closet:
+After looking in the Storage Closet when the Storage Closet is dark and the player is in the Storage Closet for the first time:
 	say "You wake up, head pounding. The room smells of vomit and cleaning supplies. You can feel a string tickling your forehead.";
 	
 The description of the storage closet is “[first time]God the lights are bright.  [only]You are in a musty storage closet. There is a door to the east.” 
@@ -34,7 +34,9 @@ The description of Big Buck Hunter  is "Cutscenes of deer running, then dying pl
 Understand "put [something] in [something]" as inserting it into. 
 
 Instead of inserting a quarter into the Big Buck Hunter:
-	say "You put the quarter into the Big Buck Hunter. You grab the plastic rifle, a mimicry of a phallus. Taking aim as the first doe crossing your screen - the crosshair lazily follows where you point";
+	say "You put the quarter into the Big Buck Hunter. You grab the plastic rifle, an orange mimicry of a phallus. Taking aim as the first doe crossing your screen - the crosshair lazily follows where you point
+
+";
 	end the story saying "a flash of light. You are no longer the hunter, you feel a reddish circle burn your skin, err hide. You are the doe and you are trapped. You see Draugs face through the glass. Looking grimly. It ends";
 	
 
@@ -57,8 +59,8 @@ the five zyn is undescribed.
 
 the description of the bar is "You're in the Cheerful Tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current." 
 
-Draug is a man in the bar. "With a capital Z crudely drawn to his collared shirt, Draug looks haggard and tired."
-Understand "talk to [someone]" as a mistake ("Draug looks at you, pleading. I've been trapped here for months. After I stole Edwards Zyn log as we were leaving that party, they trapped me in here until I can make up the difference. 
+Draug is a man in the bar. "With a capital Z crudely drawn on his collared shirt, Draug looks haggard and tired."
+Understand "talk to [someone]" as a mistake ("Draug looks at you, eyes pleading. I've been trapped here for months. After I stole Edwards Zyn log as we were leaving that party, they trapped me in here until I can make up the difference. 
 
 I only need 5 more, please if you have any I'd trade you a quarter").
 The block giving rule is not listed in the check giving it to rules. 

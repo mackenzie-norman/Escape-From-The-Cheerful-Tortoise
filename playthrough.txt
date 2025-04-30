@@ -1,0 +1,105 @@
+Escape From The Cheerful Tortoise
+An Interactive Fiction by Mackenzie Norman
+Release 1 / Serial number 250430 / Inform 7 v10.1.2 / D
+
+Darkness
+It is pitch dark, and you can't see a thing.
+
+You wake up, head pounding. The room smells of vomit and cleaning supplies. You can feel a string tickling your forehead.
+
+>look
+Darkness
+It is pitch dark, and you can't see a thing.
+
+>pull string
+You fumble for the string but find you can't get hold of it. You must need another drink.
+
+>pull string
+You switch the string on.
+
+storage closet
+God the lights are bright.  You are in a musty storage closet. There is a door to the east.
+
+You can see a string here.
+
+>e
+
+hallway
+Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .
+
+>n
+
+bar
+You're in the Cheerful Tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.
+
+With a capital Z crudely drawn on his collared shirt, Draug looks haggard and tired.
+
+>talk to draug
+Draug looks at you, eyes pleading. I've been trapped here for months. After I stole Edwards Zyn log as we were leaving that party, they trapped me in here until I can make up the difference.
+
+I only need 5 more, please if you have any I'd trade you a quarter
+
+>look bar
+You can't see any such thing.
+
+>x draug
+You see nothing special about Draug.
+
+>i
+You are carrying nothing.
+
+>s
+
+hallway
+Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .
+
+>x buck hunter
+Cutscenes of deer running, then dying play on the screen. In the corner you see: 50/75 cents.
+
+>e
+
+mens room
+You are in the mens room. It smells like barf and urine. The urinal, right next to sink has caution tape on it but based on the smell it hasn't stopped much.
+
+>look urinal
+Five Zyns in here. Pretty good bar
+
+>take zyn
+Taken.
+
+>w
+
+hallway
+Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .
+
+>n
+
+bar
+You're in the Cheerful Tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.
+
+With a capital Z crudely drawn on his collared shirt, Draug looks haggard and tired.
+
+>give zyn to draug
+Draug starts crying
+
+-  thank you so much!
+
+he walks away, muttering "Sarahedolo is never gonna believe this".
+
+>s
+
+hallway
+Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .
+
+>x buck hunter
+Cutscenes of deer running, then dying play on the screen. In the corner you see: 50/75 cents.
+
+>put quarter in buck hunter
+You put the quarter into the Big Buck Hunter. You grab the plastic rifle, an orange mimicry of a phallus. Taking aim as the first doe crossing your screen - the crosshair lazily follows where you point
+
+
+
+
+    *** a flash of light. You are no longer the hunter, you feel a reddish circle burn your skin, err hide. You are the doe and you are trapped. You see Draugs face through the glass. Looking grimly. It ends ***
+
+

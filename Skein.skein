@@ -1,50 +1,706 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-58">
+<Skein rootNode="node-1">
   <generator>Windows Inform 10.1.2</generator>
-  <item nodeId="node-58">
+  <item nodeId="node-1">
     <command xml:space="preserve">Escape From The Cheerful Tortoise</command>
-    <result xml:space="preserve">You wake up, head pounding. The room smells of vomit and cleaning supplies. You can feel a string tickling your forehead.&#x000A;&#x000A;Escape From The Cheerful Tortoise&#x000A;An Interactive Fiction by Mackenzie Norman&#x000A;Release 1 / Serial number 250421 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Escape From The Cheerful Tortoise&#x000A;An Interactive Fiction by Mackenzie Norman&#x000A;Release 1 / Serial number 250430 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;You wake up, head pounding. The room smells of vomit and cleaning supplies. You can feel a string tickling your forehead.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-59"/>
+      <child nodeId="node-2"/>
+      <child nodeId="node-12"/>
+      <child nodeId="node-15"/>
+      <child nodeId="node-19"/>
+      <child nodeId="node-21"/>
+      <child nodeId="node-30"/>
+      <child nodeId="node-61"/>
+      <child nodeId="node-63"/>
       <child nodeId="node-69"/>
-      <child nodeId="node-114"/>
-      <child nodeId="node-72"/>
-      <child nodeId="node-74"/>
-      <child nodeId="node-83"/>
-      <child nodeId="node-86"/>
-      <child nodeId="node-88"/>
-      <child nodeId="node-94"/>
-      <child nodeId="node-100"/>
-      <child nodeId="node-105"/>
-      <child nodeId="node-109"/>
-      <child nodeId="node-111"/>
-      <child nodeId="node-113"/>
+      <child nodeId="node-95"/>
+      <child nodeId="node-142"/>
+      <child nodeId="node-147"/>
+      <child nodeId="node-151"/>
+      <child nodeId="node-153"/>
+      <child nodeId="node-155"/>
     </children>
   </item>
-  <item nodeId="node-59">
+  <item nodeId="node-2">
     <command xml:space="preserve">feel</command>
     <result xml:space="preserve">What do you want to feel?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-60"/>
-      <child nodeId="node-64"/>
+      <child nodeId="node-3"/>
+      <child nodeId="node-7"/>
     </children>
   </item>
-  <item nodeId="node-60">
+  <item nodeId="node-3">
     <command xml:space="preserve">feel string</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-61"/>
+      <child nodeId="node-4"/>
     </children>
   </item>
-  <item nodeId="node-61">
+  <item nodeId="node-4">
     <command xml:space="preserve">string</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">string</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">string</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">purloin string</command>
+    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;storage closet&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a string you can feel (providing light)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">storage closet&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">flip light switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">flip light switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">flip on light switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">flip light-switch</command>
+    <result xml:space="preserve">You switch the light-switch on.&#x000A;&#x000A;storage closet&#x000A;You wake up, head pounding. The room smells of vomit and cleaning supplies.&#x000A;&#x000A;You can see a light-switch here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">light lightbulb</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">lightbulb</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">lightbulb</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">light lightbulb</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">lightbulb</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">x lightbulb</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">purloin lightbulb</command>
+    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">purloin string</command>
+    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a string you can (providing light)&#x000A;  a lightbulb&#x000A;&#x000A;storage closet&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+      <child nodeId="node-31"/>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">end</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You fumble for the string but find you can't get hold of it. You must need another drink.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You switch the string on.&#x000A;&#x000A;storage closet&#x000A;God the lights are bright.  You are in a musty storage closet. There is a door to the east.&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">bar&#x000A;You're in the Cheerful Tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.&#x000A;&#x000A;With a capital Z crudely drawn to his collared shirt, Draug looks haggard and tired.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">talk to draug</command>
+    <result xml:space="preserve">Draug looks at you, eyes pleading. I've been trapped here for months. After I stole Edwards Zyn log as we were leaving that party, they trapped me in here until I can make up the difference.&#x000A;&#x000A;I only need 5 more, please if you have any I'd trade you a quarter&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">look bar</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">x draug</command>
+    <result xml:space="preserve">You see nothing special about Draug.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">x buck hunter</command>
+    <result xml:space="preserve">Cutscenes of deer running, then dying play on the screen. In the corner you see: 50/75 cents.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">mens room&#x000A;You are in the mens room. It smells like barf and urine. The urinal, right next to sink has caution tape on it but based on the smell it hasn't stopped much.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">Five Zyns in here. Pretty good bar&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">take zyn</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">bar&#x000A;You're in the Cheerful Tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.&#x000A;&#x000A;With a capital Z crudely drawn to his collared shirt, Draug looks haggard and tired.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">give zyn to draug</command>
+    <result xml:space="preserve">Draug starts crying&#x000A;&#x000A;-  thank you so much!&#x000A;&#x000A;he walks away, muttering "Sarahedolo is never gonna believe this".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">x buck hunter</command>
+    <result xml:space="preserve">Cutscenes of deer running, then dying play on the screen. In the corner you see: 50/75 cents.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">put quarter in buck hunter</command>
+    <result xml:space="preserve">You put the quarter into the Big Buck Hunter. You grab the plastic rifle, a mimicry of a phallus. Taking aim as the first doe crossing your screen - the crosshair lazily follows where you point&#x000A;&#x000A;&#x000A;    *** a flash of light. You are no longer the hunter, you feel a reddish circle burn your skin, err hide. You are the doe and you are trapped. You see Draugs face through the glass. Looking grimly. It ends ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You fumble for the string but find you can't get hold of it. You must need another drink.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;You wake up, head pounding. The room smells of vomit and cleaning supplies. You can feel a string tickling your forehead.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You switch the string on.&#x000A;&#x000A;storage closet&#x000A;You are in a musty storage closet. There is a door to the east.&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You switch the string off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">bar&#x000A;You're in the Cheerful Tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.&#x000A;&#x000A;With a capital Z crudely drawn to his collared shirt, Draug looks haggard and tired.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">lookdraug</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">look draug</command>
+    <result xml:space="preserve">You see nothing special about Draug.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">talk to draug</command>
+    <result xml:space="preserve">Draug looks at you, pleading. I've been trapped here for months. After I stole Edwards Zyn log as we were leaving that party, they trapped me in here until I can make up the difference.&#x000A;&#x000A;I only need 5 more, please if you have any I'd trade you a quarter&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">look big buck hunter</command>
+    <result xml:space="preserve">Cutscenes of deer running, then dying play on the screen. In the corner you see: 50/75 cents.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">mens room&#x000A;You are in the mens room. It smells like barf and urine. The urinal, right next to sink has caution tape on it but based on the smell it hasn't stopped much.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">Five Zyns in here. Pretty good bar&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">take zyns</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">take zyn</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">mens room&#x000A;You are in the mens room. It smells like barf and urine. The urinal, right next to sink has caution tape on it but based on the smell it hasn't stopped much.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">Five Zyns in here. Pretty good bar&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">bar&#x000A;You're in the Cheerful Tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.&#x000A;&#x000A;With a capital Z crudely drawn to his collared shirt, Draug looks haggard and tired.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">give draug zyn</command>
+    <result xml:space="preserve">Draug starts crying&#x000A;&#x000A;-  thank you so much!&#x000A;&#x000A;he walks away, muttering "Sarahedolo is never gonna believe this".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">talk to draug</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">put quarter in big buck hunter</command>
+    <result xml:space="preserve">You put the quarter into the Big Buck Hunter. You grab the plastic rifle, a mimicry of a phallus. Taking aim as the first doe crossing your screen - the crosshair lazily follows where you point&#x000A;&#x000A;&#x000A;    *** a flash of light. You are no longer the hunter, you feel a reddish circle burn your skin, err hide. You are the doe and you are trapped. You see Draugs face through the glass. Looking grimly. It ends ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">hallway&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -52,23 +708,23 @@
     </children>
   </item>
   <item nodeId="node-62">
-    <command xml:space="preserve">pull string</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">hallway&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter glows in the distance.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-63"/>
+      <child nodeId="node-64"/>
     </children>
   </item>
-  <item nodeId="node-63">
-    <command xml:space="preserve">string</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-64">
-    <command xml:space="preserve">string</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine </command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -76,8 +732,8 @@
     </children>
   </item>
   <item nodeId="node-65">
-    <command xml:space="preserve">purloin string</command>
-    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine you</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -85,8 +741,8 @@
     </children>
   </item>
   <item nodeId="node-66">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;storage closet&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -94,8 +750,8 @@
     </children>
   </item>
   <item nodeId="node-67">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a string you can feel (providing light)&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x player</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -103,13 +759,13 @@
     </children>
   </item>
   <item nodeId="node-68">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">storage closet&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-69">
-    <command xml:space="preserve">flip light switch</command>
+    <command xml:space="preserve">pull strign</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -118,8 +774,8 @@
     </children>
   </item>
   <item nodeId="node-70">
-    <command xml:space="preserve">flip light switch</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You switch the string on.&#x000A;&#x000A;storage closet&#x000A;God the lights are bright.  You are in a musty storage closet. There is a door to the east&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -127,45 +783,17 @@
     </children>
   </item>
   <item nodeId="node-71">
-    <command xml:space="preserve">flip on light switch</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-114">
-    <command xml:space="preserve">flip switch</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-115"/>
-      <child nodeId="node-116"/>
+      <child nodeId="node-72"/>
     </children>
-  </item>
-  <item nodeId="node-115">
-    <command xml:space="preserve">flip switch</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-116">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-117"/>
-    </children>
-  </item>
-  <item nodeId="node-117">
-    <command xml:space="preserve">flip light-switch</command>
-    <result xml:space="preserve">You switch the light-switch on.&#x000A;&#x000A;storage closet&#x000A;You wake up, head pounding. The room smells of vomit and cleaning supplies.&#x000A;&#x000A;You can see a light-switch here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-72">
-    <command xml:space="preserve">light lightbulb</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">bar&#x000A;You're in the Cheerful Tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.&#x000A;&#x000A;&#x000A;&#x000A;With a capital Z crudely drawn to his collared shirt, Draug looks haggard and tired.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -173,14 +801,17 @@
     </children>
   </item>
   <item nodeId="node-73">
-    <command xml:space="preserve">lightbulb</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x bundle</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
   </item>
   <item nodeId="node-74">
-    <command xml:space="preserve">lightbulb</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -188,8 +819,8 @@
     </children>
   </item>
   <item nodeId="node-75">
-    <command xml:space="preserve">light lightbulb</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">mens room&#x000A;You are in the mens room. It smells like barf and urine. The urinal, right next to sink has caution tape on it but based on the smell it hasn't stopped much.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -197,8 +828,8 @@
     </children>
   </item>
   <item nodeId="node-76">
-    <command xml:space="preserve">lightbulb</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x urinal</command>
+    <result xml:space="preserve">Five Zyns in here. Pretty good bar&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -206,8 +837,8 @@
     </children>
   </item>
   <item nodeId="node-77">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -215,8 +846,8 @@
     </children>
   </item>
   <item nodeId="node-78">
-    <command xml:space="preserve">x lightbulb</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">bar&#x000A;You're in the Cheerful Tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.&#x000A;&#x000A;&#x000A;&#x000A;With a capital Z crudely drawn to his collared shirt, Draug looks haggard and tired.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -224,8 +855,8 @@
     </children>
   </item>
   <item nodeId="node-79">
-    <command xml:space="preserve">purloin lightbulb</command>
-    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look draug</command>
+    <result xml:space="preserve">You see nothing special about Draug.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -233,8 +864,8 @@
     </children>
   </item>
   <item nodeId="node-80">
-    <command xml:space="preserve">purloin string</command>
-    <result xml:space="preserve">[Purloined.]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">talk draug</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -242,8 +873,8 @@
     </children>
   </item>
   <item nodeId="node-81">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">talk to draug</command>
+    <result xml:space="preserve">Draug looks at you, pleading. I've been trapped here for months. After I stole Edwards Zyn log as we were leaving that party, they trapped me in here until I can make up the difference.&#x000A;&#x000A;I only need 5 more, please if you have any I'd trade you a quarter&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -251,14 +882,17 @@
     </children>
   </item>
   <item nodeId="node-82">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a string you can (providing light)&#x000A;  a lightbulb&#x000A;&#x000A;storage closet&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">give draug zyn</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
   </item>
   <item nodeId="node-83">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">zyn</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -266,8 +900,8 @@
     </children>
   </item>
   <item nodeId="node-84">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -275,14 +909,17 @@
     </children>
   </item>
   <item nodeId="node-85">
-    <command xml:space="preserve">x me</command>
-    <result xml:space="preserve">As good-looking as ever.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
   </item>
   <item nodeId="node-86">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">hallway&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">mens room&#x000A;You are in the mens room. It smells like barf and urine. The urinal, right next to sink has caution tape on it but based on the smell it hasn't stopped much.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -290,14 +927,17 @@
     </children>
   </item>
   <item nodeId="node-87">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">hallway&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take zyn</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
   </item>
   <item nodeId="node-88">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter glows in the distance.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -305,8 +945,8 @@
     </children>
   </item>
   <item nodeId="node-89">
-    <command xml:space="preserve">examine </command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">bar&#x000A;You're in the Cheerful Tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.&#x000A;&#x000A;&#x000A;&#x000A;With a capital Z crudely drawn to his collared shirt, Draug looks haggard and tired.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -314,8 +954,8 @@
     </children>
   </item>
   <item nodeId="node-90">
-    <command xml:space="preserve">examine you</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">talk to draug</command>
+    <result xml:space="preserve">Draug looks at you, pleading. I've been trapped here for months. After I stole Edwards Zyn log as we were leaving that party, they trapped me in here until I can make up the difference.&#x000A;&#x000A;I only need 5 more, please if you have any I'd trade you a quarter&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -323,8 +963,8 @@
     </children>
   </item>
   <item nodeId="node-91">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">give draug zyn</command>
+    <result xml:space="preserve">Draug starts crying&#x000A;&#x000A;-  thank you so much!&#x000A;&#x000A;he walks away, muttering "Sarahedolo is never gonna believe this".&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -332,8 +972,8 @@
     </children>
   </item>
   <item nodeId="node-92">
-    <command xml:space="preserve">x player</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a quarter&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -341,21 +981,218 @@
     </children>
   </item>
   <item nodeId="node-93">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">put quarter in big buck hunter</command>
+    <result xml:space="preserve">You put the quarter into the Big Buck Hunter. You grab the plastic rifle, a mimicry of a phallus. Taking aim as the first doe crossing your screen - the crosshair lazily follows where you point&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You switch the string on.&#x000A;&#x000A;storage closet&#x000A;God the lights are bright.  You are in a musty storage closet. There is a door to the east&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+      <child nodeId="node-117"/>
+      <child nodeId="node-118"/>
+      <child nodeId="node-121"/>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+      <child nodeId="node-99"/>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">look Big Buck Hunter</command>
+    <result xml:space="preserve">Cutscenes of deer running, then dying play on the screen. In the corner you see: 50/75 cents.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">x Big Buck Hunter</command>
+    <result xml:space="preserve">Cutscenes of deer running, then dying play on the screen. In the corner you see: 50/75 cents.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">mens room</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">mens room&#x000A;You are in the mens room. It smells like barf and urine.&#x000A;&#x000A;You can see five zyn here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">take zyn</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">mens room&#x000A;You are in the mens room. It smells like barf and urine.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  five zyn&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">drop 1 zyn</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
   </item>
-  <item nodeId="node-94">
-    <command xml:space="preserve">pull string</command>
-    <result xml:space="preserve">You fumble for the string but find you can't get hold of it. You must need another drink.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-106">
+    <command xml:space="preserve">take zyn</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-118"/>
-      <child nodeId="node-121"/>
-      <child nodeId="node-95"/>
+      <child nodeId="node-107"/>
     </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">mens room&#x000A;You are in the mens room. It smells like barf and urine.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(five zyn)&#x000A;You see nothing special about five zyn.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">mens room&#x000A;You are in the mens room. It smells like barf and urine.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">bar&#x000A;You're in the cheerful tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">bar&#x000A;You're in the cheerful tortoise, the last thing you remember is asking the bartender for the code to the bathroom. It was something current.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">mens room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter glows in the distance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-118">
     <command xml:space="preserve">look</command>
@@ -383,16 +1220,17 @@
   </item>
   <item nodeId="node-121">
     <command xml:space="preserve">pull string</command>
-    <result xml:space="preserve">You fumble for the string but find you can't get hold of it. You must need another drink.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You switch the string off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-122"/>
+      <child nodeId="node-125"/>
     </children>
   </item>
   <item nodeId="node-122">
-    <command xml:space="preserve">pull string</command>
-    <result xml:space="preserve">You switch the string on.&#x000A;&#x000A;storage closet&#x000A;God the lights are bright.  You are in a musty storage closet.&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter glows in the distance.&#x000A;&#x000A;50/75 cents&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -400,8 +1238,8 @@
     </children>
   </item>
   <item nodeId="node-123">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">storage closet&#x000A;You are in a musty storage closet.&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look Big buck hunter</command>
+    <result xml:space="preserve">You see nothing special about Big Buck Hunter.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -409,159 +1247,262 @@
     </children>
   </item>
   <item nodeId="node-124">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter glows in the distance.&#x000A;&#x000A;50/75 cents&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You switch the string on.&#x000A;&#x000A;storage closet&#x000A;You are in a musty storage closet. There is a door to the east&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">storage closet&#x000A;You are in a musty storage closet.&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">hallway&#x000A;Big Buck Hunter glows in the distance.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-95">
+  <item nodeId="node-128">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You switch the string off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">pull string</command>
+    <result xml:space="preserve">You switch the string on.&#x000A;&#x000A;storage closet&#x000A;You are in a musty storage closet. There is a door to the east&#x000A;&#x000A;You can see a string here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">hallway&#x000A;Big Buck Hunter: Reloaded  glows in the distance. The hallway runs north, spilling out to a bar. The mens room door is to the east .&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">look big buck hunter</command>
+    <result xml:space="preserve">Cutscenes of deer running, then dying play on the screen. In the corner you see: 50/75 cents.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">mens room&#x000A;You are in the mens room. It smells like barf and urine.  there are five zyns in the urinal.&#x000A;&#x000A;You can see a zyn here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">take zyn</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a zyn&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">take zyn </command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-137">
     <command xml:space="preserve">touch string</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-96"/>
+      <child nodeId="node-138"/>
     </children>
   </item>
-  <item nodeId="node-96">
+  <item nodeId="node-138">
     <command xml:space="preserve">string</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-97"/>
+      <child nodeId="node-139"/>
     </children>
   </item>
-  <item nodeId="node-97">
+  <item nodeId="node-139">
     <command xml:space="preserve">light</command>
     <result xml:space="preserve">What do you want to light?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-98"/>
+      <child nodeId="node-140"/>
     </children>
   </item>
-  <item nodeId="node-98">
+  <item nodeId="node-140">
     <command xml:space="preserve">string</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-99"/>
+      <child nodeId="node-141"/>
     </children>
   </item>
-  <item nodeId="node-99">
+  <item nodeId="node-141">
     <command xml:space="preserve">turn on light</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-100">
+  <item nodeId="node-142">
     <command xml:space="preserve">switch on</command>
     <result xml:space="preserve">(the light switch)&#x000A;That's already on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-101"/>
+      <child nodeId="node-143"/>
     </children>
   </item>
-  <item nodeId="node-101">
+  <item nodeId="node-143">
     <command xml:space="preserve">flip off</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-102"/>
+      <child nodeId="node-144"/>
     </children>
   </item>
-  <item nodeId="node-102">
+  <item nodeId="node-144">
     <command xml:space="preserve">flip switch off</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-103"/>
+      <child nodeId="node-145"/>
     </children>
   </item>
-  <item nodeId="node-103">
+  <item nodeId="node-145">
     <command xml:space="preserve">switch off</command>
     <result xml:space="preserve">(the light switch)&#x000A;You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-104"/>
+      <child nodeId="node-146"/>
     </children>
   </item>
-  <item nodeId="node-104">
+  <item nodeId="node-146">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-105">
+  <item nodeId="node-147">
     <command xml:space="preserve">turn off light switch</command>
     <result xml:space="preserve">You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-106"/>
+      <child nodeId="node-148"/>
     </children>
   </item>
-  <item nodeId="node-106">
+  <item nodeId="node-148">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-107"/>
+      <child nodeId="node-149"/>
     </children>
   </item>
-  <item nodeId="node-107">
+  <item nodeId="node-149">
     <command xml:space="preserve">turn on light switch</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-108"/>
+      <child nodeId="node-150"/>
     </children>
   </item>
-  <item nodeId="node-108">
+  <item nodeId="node-150">
     <command xml:space="preserve">turn on lightswitch</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-109">
+  <item nodeId="node-151">
     <command xml:space="preserve">turn off switch</command>
     <result xml:space="preserve">You switch the light switch off.&#x000A;&#x000A;It is now pitch dark in here!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-110"/>
+      <child nodeId="node-152"/>
     </children>
   </item>
-  <item nodeId="node-110">
+  <item nodeId="node-152">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-111">
+  <item nodeId="node-153">
     <command xml:space="preserve">turn on light switch</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-112"/>
+      <child nodeId="node-154"/>
     </children>
   </item>
-  <item nodeId="node-112">
+  <item nodeId="node-154">
     <command xml:space="preserve">turn on light switch</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-113">
+  <item nodeId="node-155">
     <command xml:space="preserve">turn on lightbulb</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
